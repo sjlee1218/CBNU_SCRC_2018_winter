@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.cpp
+ceSerial.h
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+stdlib.h
+-
+stdio.h
+-
+string
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+sys/ioctl.h
+-
+
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+string
+-
+windows.h
+-
+
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp
+stdio.h
+-
+ceSerial.h
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+iostream
+-
+
