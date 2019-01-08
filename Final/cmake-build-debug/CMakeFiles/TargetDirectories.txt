@@ -1,3 +1,0 @@
-/home/scrc/Desktop/Final/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/scrc/Desktop/Final/cmake-build-debug/CMakeFiles/Final.dir
-/home/scrc/Desktop/Final/cmake-build-debug/CMakeFiles/edit_cache.dir
