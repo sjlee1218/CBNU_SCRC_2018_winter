@@ -39,4 +39,6 @@ ceSerial.h
 /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
 iostream
 -
+string.h
+-
 
