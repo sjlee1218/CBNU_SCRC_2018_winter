@@ -85,7 +85,7 @@ int main()
 
 
 		BYTE valid = temp[15];
-		if (valid & 0b1111 != 0b1111)
+		if ((valid & 0b1111) != 0b1111)
 		    continue;
 
 		rx = (BYTE) com.ReadChar(successFlag);
