@@ -1,0 +1,2 @@
+sudo ldconfig
+$ export LD_LIBRARY_PATH=/home/my_path:$LD_LIBRARY_PATH

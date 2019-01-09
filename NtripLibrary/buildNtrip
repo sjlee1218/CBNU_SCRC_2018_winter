@@ -1,0 +1,20 @@
+case "$1" in
+    64)
+		g++ -o sclient64 ./NtripClient/SingleClient.cpp -Llib -lNmpntClient64 -pthread -lrt -m64
+		g++ -o mclient64 ./NtripClient/MultiClient.cpp -Llib -lNmpntClient64 -pthread -lrt -m64
+		;;
+
+	32)
+		g++ -o sclient32 ./NtripClient/SingleClient.cpp -Llib -lNmpntClient32 -pthread -lrt -m32
+		g++ -o mclient32 ./NtripClient/MultiClient.cpp -Llib -lNmpntClient32 -pthread -lrt -m32
+		;;
+
+    *)
+		 echo "Usage: $0 {64|32}"
+        exit 0
+        ;;
+esac
+
+exit $?
+
+
