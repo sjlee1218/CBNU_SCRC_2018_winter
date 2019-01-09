@@ -7,10 +7,19 @@
 #include <stdio.h>
 #include "ceSerial.h"
 #include <iostream>
+#include <fstream>
+#include <signal.h>
 using namespace std;
 using namespace ce;
 
 typedef unsigned char BYTE;
+
+volatile int j=1;
+
+void handler(int sig){
+	j=0;
+	return;
+}
 
 unsigned long get_reverse(BYTE temp[96], int offset, int length) {
 	unsigned long ref = 0;
@@ -40,6 +49,14 @@ int main()
 	bool successFlag;
 	BYTE rx;
 	BYTE temp[96];
+//	ofstream out("PVT_test.txt");
+
+//	if (!out.is_open()){
+//		printf("file error!");
+//	}
+
+	// install SIGINT handler
+	signal(SIGINT, handler);
 
 	while(1) {
 		rx = (BYTE) com.ReadChar(successFlag);
@@ -82,14 +99,17 @@ int main()
 
 		// https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf
 		// according to above link (p. 328, 33.17.14 UBX-NAV-PVT (0x01 0x07)) for payload offset and length, use get_reverse function to get info such as longitude, latitude
-		std::cout << std::fixed;
-		std::cout.precision(6);
-		std::cout << "longitude: " << (double) get_reverse(temp, 24, 4) * 1e-7 << std::endl;
-		std::cout << "latitude: " << (double) get_reverse(temp, 28, 4) * 1e-7 << std::endl;
+		cout << fixed;
+		cout.precision(6);
+		cout << "longitude: " << (double) get_reverse(temp, 24, 4) * 1e-7 << endl;
+		cout << "latitude: " << (double) get_reverse(temp, 28, 4) * 1e-7 << endl<<endl;
 		//std::cout << "headVeh: " << (double)get_reverse(temp, 84, 4)*1e-5 << std::endl;
-		std::cout << "hMSL(m): " << (double) get_reverse(temp, 36, 4) / 1000 << std::endl;
 
+		if(j==0)
+			break;
 	}
+//	out.close();
+	return 0;
 
 	printf("Writing.\n");
 	char s[]="Hello";

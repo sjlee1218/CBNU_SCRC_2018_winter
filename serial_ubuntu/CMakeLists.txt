@@ -7,4 +7,4 @@ include_directories(.)
 add_executable(serial_ubuntu
         ceSerial.cpp
         ceSerial.h
-        conserial.cpp)
+        main_PVT.cpp)

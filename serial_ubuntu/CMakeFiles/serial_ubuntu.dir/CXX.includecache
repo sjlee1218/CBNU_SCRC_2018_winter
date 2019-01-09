@@ -32,13 +32,15 @@ string
 windows.h
 -
 
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp
+/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp
 stdio.h
 -
 ceSerial.h
 /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
 iostream
 -
-string.h
+fstream
+-
+signal.h
 -
 

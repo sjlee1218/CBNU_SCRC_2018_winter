@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/serial_ubuntu.dir/ceSerial.o"
-  "CMakeFiles/serial_ubuntu.dir/conserial.o"
+  "CMakeFiles/serial_ubuntu.dir/main_PVT.o"
   "serial_ubuntu.pdb"
   "serial_ubuntu"
 )

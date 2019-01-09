@@ -81,40 +81,40 @@ CMakeFiles/serial_ubuntu.dir/ceSerial.o.provides: CMakeFiles/serial_ubuntu.dir/c
 CMakeFiles/serial_ubuntu.dir/ceSerial.o.provides.build: CMakeFiles/serial_ubuntu.dir/ceSerial.o
 
 
-CMakeFiles/serial_ubuntu.dir/conserial.o: CMakeFiles/serial_ubuntu.dir/flags.make
-CMakeFiles/serial_ubuntu.dir/conserial.o: conserial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial_ubuntu.dir/conserial.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial_ubuntu.dir/conserial.o -c /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp
+CMakeFiles/serial_ubuntu.dir/main_PVT.o: CMakeFiles/serial_ubuntu.dir/flags.make
+CMakeFiles/serial_ubuntu.dir/main_PVT.o: main_PVT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial_ubuntu.dir/main_PVT.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial_ubuntu.dir/main_PVT.o -c /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp
 
-CMakeFiles/serial_ubuntu.dir/conserial.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial_ubuntu.dir/conserial.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp > CMakeFiles/serial_ubuntu.dir/conserial.i
+CMakeFiles/serial_ubuntu.dir/main_PVT.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial_ubuntu.dir/main_PVT.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp > CMakeFiles/serial_ubuntu.dir/main_PVT.i
 
-CMakeFiles/serial_ubuntu.dir/conserial.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial_ubuntu.dir/conserial.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp -o CMakeFiles/serial_ubuntu.dir/conserial.s
+CMakeFiles/serial_ubuntu.dir/main_PVT.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial_ubuntu.dir/main_PVT.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp -o CMakeFiles/serial_ubuntu.dir/main_PVT.s
 
-CMakeFiles/serial_ubuntu.dir/conserial.o.requires:
+CMakeFiles/serial_ubuntu.dir/main_PVT.o.requires:
 
-.PHONY : CMakeFiles/serial_ubuntu.dir/conserial.o.requires
+.PHONY : CMakeFiles/serial_ubuntu.dir/main_PVT.o.requires
 
-CMakeFiles/serial_ubuntu.dir/conserial.o.provides: CMakeFiles/serial_ubuntu.dir/conserial.o.requires
-	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/conserial.o.provides.build
-.PHONY : CMakeFiles/serial_ubuntu.dir/conserial.o.provides
+CMakeFiles/serial_ubuntu.dir/main_PVT.o.provides: CMakeFiles/serial_ubuntu.dir/main_PVT.o.requires
+	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/main_PVT.o.provides.build
+.PHONY : CMakeFiles/serial_ubuntu.dir/main_PVT.o.provides
 
-CMakeFiles/serial_ubuntu.dir/conserial.o.provides.build: CMakeFiles/serial_ubuntu.dir/conserial.o
+CMakeFiles/serial_ubuntu.dir/main_PVT.o.provides.build: CMakeFiles/serial_ubuntu.dir/main_PVT.o
 
 
 # Object files for target serial_ubuntu
 serial_ubuntu_OBJECTS = \
 "CMakeFiles/serial_ubuntu.dir/ceSerial.o" \
-"CMakeFiles/serial_ubuntu.dir/conserial.o"
+"CMakeFiles/serial_ubuntu.dir/main_PVT.o"
 
 # External object files for target serial_ubuntu
 serial_ubuntu_EXTERNAL_OBJECTS =
 
 serial_ubuntu: CMakeFiles/serial_ubuntu.dir/ceSerial.o
-serial_ubuntu: CMakeFiles/serial_ubuntu.dir/conserial.o
+serial_ubuntu: CMakeFiles/serial_ubuntu.dir/main_PVT.o
 serial_ubuntu: CMakeFiles/serial_ubuntu.dir/build.make
 serial_ubuntu: CMakeFiles/serial_ubuntu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable serial_ubuntu"
@@ -126,7 +126,7 @@ CMakeFiles/serial_ubuntu.dir/build: serial_ubuntu
 .PHONY : CMakeFiles/serial_ubuntu.dir/build
 
 CMakeFiles/serial_ubuntu.dir/requires: CMakeFiles/serial_ubuntu.dir/ceSerial.o.requires
-CMakeFiles/serial_ubuntu.dir/requires: CMakeFiles/serial_ubuntu.dir/conserial.o.requires
+CMakeFiles/serial_ubuntu.dir/requires: CMakeFiles/serial_ubuntu.dir/main_PVT.o.requires
 
 .PHONY : CMakeFiles/serial_ubuntu.dir/requires
 

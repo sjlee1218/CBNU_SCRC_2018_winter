@@ -4,6 +4,6 @@
 CMakeFiles/serial_ubuntu.dir/ceSerial.o: ceSerial.cpp
 CMakeFiles/serial_ubuntu.dir/ceSerial.o: ceSerial.h
 
-CMakeFiles/serial_ubuntu.dir/conserial.o: ceSerial.h
-CMakeFiles/serial_ubuntu.dir/conserial.o: conserial.cpp
+CMakeFiles/serial_ubuntu.dir/main_PVT.o: ceSerial.h
+CMakeFiles/serial_ubuntu.dir/main_PVT.o: main_PVT.cpp
 

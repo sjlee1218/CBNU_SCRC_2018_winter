@@ -139,19 +139,19 @@ ceSerial.s:
 .PHONY : ceSerial.s
 
 # target to build an object file
-conserial.o:
-	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/conserial.o
-.PHONY : conserial.o
+main_PVT.o:
+	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/main_PVT.o
+.PHONY : main_PVT.o
 
 # target to preprocess a source file
-conserial.i:
-	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/conserial.i
-.PHONY : conserial.i
+main_PVT.i:
+	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/main_PVT.i
+.PHONY : main_PVT.i
 
 # target to generate assembly for a file
-conserial.s:
-	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/conserial.s
-.PHONY : conserial.s
+main_PVT.s:
+	$(MAKE) -f CMakeFiles/serial_ubuntu.dir/build.make CMakeFiles/serial_ubuntu.dir/main_PVT.s
+.PHONY : main_PVT.s
 
 # Help Target
 help:
@@ -165,9 +165,9 @@ help:
 	@echo "... ceSerial.o"
 	@echo "... ceSerial.i"
 	@echo "... ceSerial.s"
-	@echo "... conserial.o"
-	@echo "... conserial.i"
-	@echo "... conserial.s"
+	@echo "... main_PVT.o"
+	@echo "... main_PVT.i"
+	@echo "... main_PVT.s"
 .PHONY : help
 
 

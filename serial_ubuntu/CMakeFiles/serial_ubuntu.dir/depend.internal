@@ -4,6 +4,6 @@
 CMakeFiles/serial_ubuntu.dir/ceSerial.o
  /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.cpp
  /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
-CMakeFiles/serial_ubuntu.dir/conserial.o
+CMakeFiles/serial_ubuntu.dir/main_PVT.o
  /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
- /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/conserial.cpp
+ /home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp
