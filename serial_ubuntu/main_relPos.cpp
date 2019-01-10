@@ -8,13 +8,23 @@
 #include "ceSerial.h"
 #include <iostream>
 #include <string.h>
+#include <fstream>
+#include <signal.h>
+
+volatile int j=0;
 
 using namespace std;
 using namespace ce;
 
+
 typedef unsigned char BYTE;
 
-unsigned long get_reverse(BYTE temp[44], int offset, int length) {
+void handler(int sig){
+	j=1;
+	return;
+}
+
+long long get_reverse(BYTE temp[44], int offset, int length) {
 	unsigned long ref = 0;
 
 	//longitude = temp[31] << 24 | temp[30] << 16 | temp[29] << 8 | temp[28]
@@ -42,6 +52,14 @@ int main(int argc, char** argv)
 	bool successFlag;
 	BYTE rx;
 	BYTE temp[44]; // RelPosNED
+	ofstream out("test_relPos.txt");
+
+	if (!out.is_open()){
+		cout<< "file open error!"<<endl;
+		return 0;
+	}
+
+	signal(SIGINT, handler);
 
 	while(1) {
 		rx = (BYTE) com.ReadChar(successFlag);
@@ -85,13 +103,17 @@ int main(int argc, char** argv)
 
 		// https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf
 		// according to above link (p. 328, 33.17.14 UBX-NAV-PVT (0x01 0x07)) for payload offset and length, use get_reverse function to get info such as longitude, latitude
-		std::cout << std::fixed;
-		std::cout.precision(6);
-		std::cout << "relPosN(cm): " << (double) get_reverse(temp, 8, 4) << std::endl;
-		std::cout << "relPosE(cm): " << (double) get_reverse(temp, 12, 4) << std::endl;
-		std::cout << "relPosD(cm): " << (double) get_reverse(temp, 16, 4) << std::endl<<std::endl;
+		out << "relPosN(m): " << (long double) get_reverse(temp, 8, 4)/100 << std::endl;
+		out << "relPosE(m): " << (long double) get_reverse(temp, 12, 4)/100 << std::endl;
+		out << "relPosD(m): " << (long double) get_reverse(temp, 16, 4)/100 << std::endl<<std::endl;
 
+		if (j==1)
+			break;
 	}
+
+	out.close();
+	cout<<"test_relPos.txt"<<endl;
+	return 0;
 
 	printf("Writing.\n");
 	char s[]="Hello";
