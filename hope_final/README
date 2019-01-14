@@ -3,7 +3,7 @@ written by Lee SeungJoon
 Github URL: https://github.com/sjlee1218
 Email Address: sjlee1218@postech.ac.kr
 
-opening usb device is "/dev/ttyACM0" and baudrate is 9660 now.
+opening usb device is "/dev/ttyACM0" and baudrate is 9600 now.
 You can change device and baudrate in main.cpp source code.
 
 signal in use is UBX-NAV-PVT
