@@ -93,8 +93,8 @@ int main(int argc, char** argv)
 	}
 	else{
 		cout<<"Command error!"<<endl;
-		cout<<"eg 1) ./a.out -> stdout"<<endl;
-		cout<<"eg 2) ./a.out 1 filename.txt -> save contents at argv[2]"<<endl;
+		cout<<"eg 1) ./serial_ubuntu -> stdout"<<endl;
+		cout<<"eg 2) ./serial_ubuntu filename.txt -> save contents at argv[2]"<<endl;
 		cout<<"if you want to save at file, argc must be 3 and argv[1] must be 1"<<endl;
 	}
 

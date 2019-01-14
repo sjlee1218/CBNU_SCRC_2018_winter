@@ -6,9 +6,33 @@
 
 #IncludeRegexTransform: 
 
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/PVT_Parser.cpp
+PVT_Parser.h
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/PVT_Parser.h
+
 /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/PVT_Parser.h
 ceSerial.h
 /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.cpp
+ceSerial.h
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+stdlib.h
+-
+stdio.h
+-
+string
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+sys/ioctl.h
+-
 
 /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
 string
