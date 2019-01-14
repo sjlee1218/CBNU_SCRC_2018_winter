@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,37 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.cpp
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/PVT_Parser.h
 ceSerial.h
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
-stdlib.h
--
-stdio.h
--
-string
--
-string.h
--
-unistd.h
--
-fcntl.h
--
-termios.h
--
-sys/ioctl.h
--
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
 
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
 string
 -
 windows.h
 -
 
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/main_PVT.cpp
 stdio.h
 -
 ceSerial.h
-/home/scrc/Desktop/sjlee1218_GitWork/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/ceSerial.h
+PVT_Parser.h
+/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/serial_ubuntu/PVT_Parser.h
 iostream
 -
 fstream

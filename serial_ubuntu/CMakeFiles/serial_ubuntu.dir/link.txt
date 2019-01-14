@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/serial_ubuntu.dir/ceSerial.o CMakeFiles/serial_ubuntu.dir/main_PVT.o  -o serial_ubuntu -rdynamic 
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/serial_ubuntu.dir/ceSerial.cpp.o CMakeFiles/serial_ubuntu.dir/PVT_Parser.cpp.o CMakeFiles/serial_ubuntu.dir/main_PVT.cpp.o  -o serial_ubuntu 
