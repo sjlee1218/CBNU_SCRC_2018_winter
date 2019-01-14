@@ -50,7 +50,7 @@ ublox_parser::ublox_parser(const std::string port_name, int baudrate) :
 {
 
 	//ceSerial com("/dev/ttyACM0",9600,8,'N',1); // Linux
-    serial_ = new ce::ceSerial("/dev/ttyACM0",9600, 8,'N',1);
+    serial_ = new ce::ceSerial(port_name,baudrate, 8,'N',1);
 
 	//mPVT = new PARSING_TYPEDEF_UBX_M8P_PVT;
 

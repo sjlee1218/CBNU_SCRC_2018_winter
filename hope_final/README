@@ -1,0 +1,11 @@
+2019/ 01/ 14. first finished
+written by Lee SeungJoon
+Github URL: https://github.com/sjlee1218
+Email Address: sjlee1218@postech.ac.kr
+
+opening usb device is "/dev/ttyACM0" and baudrate is 9660 now.
+You can change device and baudrate in main.cpp source code.
+
+signal in use is UBX-NAV-PVT
+You can see contents of the signal in parser_vercpp.hpp code
+You can print these contents in main.cpp by referencing the GlobalPVT struct.
