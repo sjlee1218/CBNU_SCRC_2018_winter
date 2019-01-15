@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.00)
-project(hope_final)
+project(serial_PVT_final)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(hope_final
+add_executable(serial_PVT_final
         ceSerial.cpp
         ceSerial.h
         main.cpp
