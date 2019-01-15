@@ -83,9 +83,35 @@ CMakeFiles/spline_temp.dir/Curve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spline_temp.dir/Curve.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Curve.cpp -o CMakeFiles/spline_temp.dir/Curve.cpp.s
 
+CMakeFiles/spline_temp.dir/Bezier.cpp.o: CMakeFiles/spline_temp.dir/flags.make
+CMakeFiles/spline_temp.dir/Bezier.cpp.o: ../Bezier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spline_temp.dir/Bezier.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spline_temp.dir/Bezier.cpp.o -c /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Bezier.cpp
+
+CMakeFiles/spline_temp.dir/Bezier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spline_temp.dir/Bezier.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Bezier.cpp > CMakeFiles/spline_temp.dir/Bezier.cpp.i
+
+CMakeFiles/spline_temp.dir/Bezier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spline_temp.dir/Bezier.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Bezier.cpp -o CMakeFiles/spline_temp.dir/Bezier.cpp.s
+
+CMakeFiles/spline_temp.dir/BSpline.cpp.o: CMakeFiles/spline_temp.dir/flags.make
+CMakeFiles/spline_temp.dir/BSpline.cpp.o: ../BSpline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spline_temp.dir/BSpline.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spline_temp.dir/BSpline.cpp.o -c /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/BSpline.cpp
+
+CMakeFiles/spline_temp.dir/BSpline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spline_temp.dir/BSpline.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/BSpline.cpp > CMakeFiles/spline_temp.dir/BSpline.cpp.i
+
+CMakeFiles/spline_temp.dir/BSpline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spline_temp.dir/BSpline.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/BSpline.cpp -o CMakeFiles/spline_temp.dir/BSpline.cpp.s
+
 CMakeFiles/spline_temp.dir/main.cpp.o: CMakeFiles/spline_temp.dir/flags.make
 CMakeFiles/spline_temp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spline_temp.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spline_temp.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spline_temp.dir/main.cpp.o -c /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/main.cpp
 
 CMakeFiles/spline_temp.dir/main.cpp.i: cmake_force
@@ -98,7 +124,7 @@ CMakeFiles/spline_temp.dir/main.cpp.s: cmake_force
 
 CMakeFiles/spline_temp.dir/Vector.cpp.o: CMakeFiles/spline_temp.dir/flags.make
 CMakeFiles/spline_temp.dir/Vector.cpp.o: ../Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spline_temp.dir/Vector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spline_temp.dir/Vector.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spline_temp.dir/Vector.cpp.o -c /Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Vector.cpp
 
 CMakeFiles/spline_temp.dir/Vector.cpp.i: cmake_force
@@ -113,6 +139,8 @@ CMakeFiles/spline_temp.dir/Vector.cpp.s: cmake_force
 spline_temp_OBJECTS = \
 "CMakeFiles/spline_temp.dir/CatmullRom.cpp.o" \
 "CMakeFiles/spline_temp.dir/Curve.cpp.o" \
+"CMakeFiles/spline_temp.dir/Bezier.cpp.o" \
+"CMakeFiles/spline_temp.dir/BSpline.cpp.o" \
 "CMakeFiles/spline_temp.dir/main.cpp.o" \
 "CMakeFiles/spline_temp.dir/Vector.cpp.o"
 
@@ -121,11 +149,13 @@ spline_temp_EXTERNAL_OBJECTS =
 
 spline_temp: CMakeFiles/spline_temp.dir/CatmullRom.cpp.o
 spline_temp: CMakeFiles/spline_temp.dir/Curve.cpp.o
+spline_temp: CMakeFiles/spline_temp.dir/Bezier.cpp.o
+spline_temp: CMakeFiles/spline_temp.dir/BSpline.cpp.o
 spline_temp: CMakeFiles/spline_temp.dir/main.cpp.o
 spline_temp: CMakeFiles/spline_temp.dir/Vector.cpp.o
 spline_temp: CMakeFiles/spline_temp.dir/build.make
 spline_temp: CMakeFiles/spline_temp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable spline_temp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable spline_temp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spline_temp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/BSpline.cpp">
+			<Option target="spline_temp"/>
+		</Unit>
+		<Unit filename="/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/BSpline.h">
+			<Option target="spline_temp"/>
+		</Unit>
+		<Unit filename="/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Bezier.cpp">
+			<Option target="spline_temp"/>
+		</Unit>
+		<Unit filename="/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/Bezier.h">
+			<Option target="spline_temp"/>
+		</Unit>
 		<Unit filename="/Users/leeseungjoon/Desktop/GitHub_SJLEE/CBNU_SCRC_2018_winter/DeadReckonging/spline_temp/CatmullRom.cpp">
 			<Option target="spline_temp"/>
 		</Unit>

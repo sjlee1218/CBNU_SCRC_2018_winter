@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spline_temp.dir/CatmullRom.cpp.o"
   "CMakeFiles/spline_temp.dir/Curve.cpp.o"
+  "CMakeFiles/spline_temp.dir/Bezier.cpp.o"
+  "CMakeFiles/spline_temp.dir/BSpline.cpp.o"
   "CMakeFiles/spline_temp.dir/main.cpp.o"
   "CMakeFiles/spline_temp.dir/Vector.cpp.o"
   "spline_temp.pdb"

@@ -166,7 +166,8 @@ Vector& Vector::operator/=(double value)
 std::string Vector::toString() const
 {
 	std::ostringstream oss;
-	oss << "[" << x << ", " << y << ", " << z << "]";
+	//oss << "[" << x << ", " << y << ", " << z << "]";
+    oss << x << "\t" << y;
 	return oss.str();
 }
 

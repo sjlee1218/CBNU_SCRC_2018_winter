@@ -123,6 +123,60 @@ spline_temp/fast:
 	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/build
 .PHONY : spline_temp/fast
 
+BSpline.o: BSpline.cpp.o
+
+.PHONY : BSpline.o
+
+# target to build an object file
+BSpline.cpp.o:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/BSpline.cpp.o
+.PHONY : BSpline.cpp.o
+
+BSpline.i: BSpline.cpp.i
+
+.PHONY : BSpline.i
+
+# target to preprocess a source file
+BSpline.cpp.i:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/BSpline.cpp.i
+.PHONY : BSpline.cpp.i
+
+BSpline.s: BSpline.cpp.s
+
+.PHONY : BSpline.s
+
+# target to generate assembly for a file
+BSpline.cpp.s:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/BSpline.cpp.s
+.PHONY : BSpline.cpp.s
+
+Bezier.o: Bezier.cpp.o
+
+.PHONY : Bezier.o
+
+# target to build an object file
+Bezier.cpp.o:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/Bezier.cpp.o
+.PHONY : Bezier.cpp.o
+
+Bezier.i: Bezier.cpp.i
+
+.PHONY : Bezier.i
+
+# target to preprocess a source file
+Bezier.cpp.i:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/Bezier.cpp.i
+.PHONY : Bezier.cpp.i
+
+Bezier.s: Bezier.cpp.s
+
+.PHONY : Bezier.s
+
+# target to generate assembly for a file
+Bezier.cpp.s:
+	$(MAKE) -f CMakeFiles/spline_temp.dir/build.make CMakeFiles/spline_temp.dir/Bezier.cpp.s
+.PHONY : Bezier.cpp.s
+
 CatmullRom.o: CatmullRom.cpp.o
 
 .PHONY : CatmullRom.o
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... spline_temp"
+	@echo "... BSpline.o"
+	@echo "... BSpline.i"
+	@echo "... BSpline.s"
+	@echo "... Bezier.o"
+	@echo "... Bezier.i"
+	@echo "... Bezier.s"
 	@echo "... CatmullRom.o"
 	@echo "... CatmullRom.i"
 	@echo "... CatmullRom.s"

@@ -10,6 +10,11 @@ add_executable(spline_temp
         CatmullRom.h
         Curve.cpp
         Curve.h
+        Bezier.cpp
+        Bezier.h
+        BSpline.cpp
+        BSpline.h
         main.cpp
         Vector.cpp
-        Vector.h)
+        Vector.h
+        )
