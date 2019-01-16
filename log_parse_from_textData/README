@@ -1,0 +1,3 @@
+lon'\t'lat
+velN '\t' velE '\t' velD   (m/s)
+groundSpeed(m/s) '\t' HeadOfMotion '\t' headAcc

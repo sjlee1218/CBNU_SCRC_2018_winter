@@ -18,8 +18,8 @@ long long get_reverse(BYTE temp[96], int offset, int length) {
 
 
 int main(){
-	ifstream in("/Users/leeseungjoon/Desktop/CBNU_2018_winer/insane/180108.ubx");
-	ofstream out("/Users/leeseungjoon/Desktop/CBNU_2018_winer/insane/log.txt");
+	ifstream in("180108.ubx");
+	ofstream out("log.txt");
 	if (!in.is_open())
 		return 0;
     if (!out.is_open())
@@ -73,17 +73,17 @@ int main(){
 		if (rx != check_B)
 			return 0;
 
-		cout<<fixed;
-		cout.precision(6);
-		cout<< "lon: "<<(double) get_reverse(temp, 24,4)*1e-7<<" lon: "<<(double) get_reverse(temp, 28,4)*1e-7<<endl;
-		cout<<"velN(cm/s): "<<(double) get_reverse(temp, 48,4)/1000<<" velE: "<<(double)get_reverse(temp, 52,4)/1000<<" velD: "<<(double)get_reverse(temp,56,4)/1000<<endl;
-		cout<<"headMot: "<<(double)get_reverse(temp, 64,4)*1e-5<<  " hAcc: "<<(double) get_reverse(temp, 72,4)*1e-5<<endl;
+		//cout<<fixed;
+		//cout.precision(6);
+		//cout<< "lon: "<<(double) get_reverse(temp, 24,4)*1e-7<<" lon: "<<(double) get_reverse(temp, 28,4)*1e-7<<endl;
+		//cout<<"velN(cm/s): "<<(double) get_reverse(temp, 48,4)/1000<<" velE: "<<(double)get_reverse(temp, 52,4)/1000<<" velD: "<<(double)get_reverse(temp,56,4)/1000<<endl;
+		//cout<<"headMot: "<<(double)get_reverse(temp, 64,4)*1e-5<<  " hAcc: "<<(double) get_reverse(temp, 72,4)*1e-5<<endl;
 
         out<<fixed;
         out.precision(6);
         out<<(double) get_reverse(temp, 24,4)*1e-7<<"\t"<<(double) get_reverse(temp, 28,4)*1e-7<<endl;
         out<<(double) get_reverse(temp, 48,4)/1000<<"\t"<<(double)get_reverse(temp, 52,4)/1000<<"\t"<<(double)get_reverse(temp,56,4)/1000<<endl;
-        out<<(double)get_reverse(temp, 64,4)*1e-5<<  "\t"<<(double) get_reverse(temp, 72,4)*1e-5<<endl;
+        out<<(double) get_reverse(temp, 60,4)/1000<<"\t"<<(double)get_reverse(temp, 64,4)*1e-5<<  "\t"<<(double) get_reverse(temp, 72,4)*1e-5<<endl;
 	}
 
 	in.close();
