@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/socketcan.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+net/if.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+linux/can.h
+-
+linux/can/raw.h
+-
+
+/home/leeyj/Ros_Project/Control_ws/utils/socketcan/src/socketcan.cpp
+socketcan.h
+/home/leeyj/Ros_Project/Control_ws/utils/socketcan/src/socketcan.h
+
