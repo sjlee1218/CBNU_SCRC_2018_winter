@@ -13,7 +13,7 @@
 //#include <PCANBasic.h>
 #include "socketcan.h"
 
-
+//Danigo
 const std::string topic_vcu = "vehicle_info/vcu";
 const std::string topic_brake = "vehicle_info/brake";
 const std::string topic_eps = "vehicle_info/eps";

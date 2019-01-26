@@ -6,6 +6,7 @@
 #include "vehicle_msgs/abs.h"
 #include "vehicle_msgs/esc.h"
 
+//ioniq chassis
 const std::string topic_abs= "abs";
 const std::string topic_esc = "esc";
 
