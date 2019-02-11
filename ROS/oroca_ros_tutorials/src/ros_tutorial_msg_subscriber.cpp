@@ -3,7 +3,7 @@
 
 void msgCallback(const oroca_ros_tutorials::msgTutorial::ConstPtr& msg)
 {
-    ROS_INFO("latitude: %lf, longitude: %lf, flag: %d",msg->latitude, msg->longitude,msg->flag);
+    ROS_INFO("latitude: %lf, longitude: %lf",msg->latitude, msg->longitude);
 }
 
 int main(int argc, char **argv){

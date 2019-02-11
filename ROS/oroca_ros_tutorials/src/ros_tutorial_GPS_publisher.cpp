@@ -40,13 +40,12 @@ int main(int argc, char** argv){
 
             // because we should update our vehicle's location at least 5 times between two signals
             //std::cout<<"Valid"<<std::endl;
-            ROS_INFO("%lf",globalPVT.lat);
+            ROS_INFO("Publish GPS Message");
 
             msg.latitude= globalPVT.lat;
             msg.longitude=globalPVT.lon;
             msg.heading = globalPVT.headMot; // heading of motion
             msg.gSpeed=globalPVT.gSpeed;
-            msg.flag = 1; // 1 for GPS signal
 
             ros_tutorial_pub.publish(msg);
             loop_rate.sleep();

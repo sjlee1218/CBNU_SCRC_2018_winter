@@ -35,7 +35,7 @@ void msgCallback(const oroca_ros_tutorials::msgTutorial::ConstPtr& msg)
     GPS_lon = msg->longitude;
     GPS_head = msg->heading;
     GPS_gSpeed = msg->gSpeed;
-    //ROS_INFO("Got GPS signal");
+    ROS_INFO("Got GPS signal");
 }
 
 int main(int argc, char **argv){
@@ -51,7 +51,7 @@ int main(int argc, char **argv){
 
   double lon_lat[2];
 
-  ros::Rate loop_rate(30);
+  ros::Rate loop_rate(20);
 //  ros::spin();
 
   while (ros::ok()) {
@@ -62,7 +62,6 @@ int main(int argc, char **argv){
 
       msg.longitude=lon_lat[0];
       msg.latitude=lon_lat[1];
-      msg.flag=0; // 0 for DR
 
       DR_pub.publish(msg);
 
