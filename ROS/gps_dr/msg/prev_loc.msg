@@ -1,0 +1,4 @@
+float64 pre_longitude
+float64 pre_latitude
+float64 pre_heading
+float64 pre_gSpeed

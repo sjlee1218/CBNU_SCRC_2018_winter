@@ -1,0 +1,2 @@
+float64 final_longitude
+float64 final_latitude
