@@ -25,11 +25,11 @@ void DeadReck(double lon_lat[2]){
 
     pre_head += yaw_rate * elapsed_time;
 
-    double moved_lat_dist = moving_distance*sin(pre_head*degree);
-    double moved_lon_dist = moving_distance*cos(pre_head*degree);
+    double moved_lat_dist = moving_distance*cos(pre_head*degree);
+    double moved_lon_dist = moving_distance*sin(pre_head*degree);
 
-    double moved_lat_degree = moved_lat_dist/88884;
-    double moved_lon_degree = moved_lon_dist/111000;
+    double moved_lat_degree = moved_lat_dist/11100000;
+    double moved_lon_degree = moved_lon_dist/8888400;
 
     pre_lon = pre_lon+moved_lon_degree;
     pre_lat = pre_lat + moved_lat_degree;
